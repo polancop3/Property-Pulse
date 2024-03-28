@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "@/components/Navbar";
 import '@/assets/styles/global.css'
 export const metadata = {
   title: 'Property Pulse | Find the Perfect Rental',
@@ -10,7 +11,8 @@ const MainLayout = ({children}) => {
   return (
     <html lang='en'>
       <body>
-      <div>{children}</div>
+        <Navbar/>
+      <main>{children}</main>
       </body>
     </html>
   );
