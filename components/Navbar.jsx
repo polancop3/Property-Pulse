@@ -65,7 +65,7 @@ const Navbar = () => {
             >
           </Link>
           {/* <!-- Desktop Menu Hidden below md screens --> */}
-          <div className="hidden md:ml-6 md:block">
+          <div className="hidden md:ml-6 md:block" style={{alignContent: "center"}}>
             <div className="flex space-x-2">
               <Link
                 href="/"
